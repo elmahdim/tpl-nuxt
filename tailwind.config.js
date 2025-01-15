@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  plugins: [require("@tailwindcss/typography"), require("daisyui")],
   daisyui: {
     themes: [
       {
@@ -18,16 +17,6 @@ module.exports = {
         },
       },
     ],
-    container: {
-      center: true,
-      padding: "1rem",
-      screens: {
-        sm: "600px",
-        md: "728px",
-        lg: "984px",
-        xl: "1240px",
-        "2xl": "1496px",
-      },
-    },
   },
+  plugins: [require("@tailwindcss/typography"), require("daisyui")],
 };
