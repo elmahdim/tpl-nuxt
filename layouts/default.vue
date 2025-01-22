@@ -1,5 +1,4 @@
 <template>
-  <div class="pb-60">
-    <slot />
-  </div>
+  <Navbar />
+  <slot />
 </template>
